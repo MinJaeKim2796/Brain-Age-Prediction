@@ -1,0 +1,12 @@
+{
+  "dataset_path": "/root/capstone/2022SWC/pac-2019/data/CAMCAN/CAMCAN_preprocessed/rawsize_1mm_lsq",
+  "batch_size": 8,
+  "learning_rate": 0.001,
+  "weight_decay" : 1e-6,
+  "epochs": 100,
+  "initial_lr_rampup": 10,
+  "3d": true,
+  "mixup": false,
+  "mixup_alpha": 0.4,
+  "save_path": "models/Cole_bn_mae_b8_camcan_0609_RAWSIZE_lsq_2.pt"
+  }
